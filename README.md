@@ -76,17 +76,16 @@ spec:
 ## 2. Apply the manifest files
 Set context so you can target the cluster to deploy the manifest.
 > kubectl config get-contexts
-<br />
+
 This should list all available context and you need to pick the target. If this
 is for Minikube, then it should be *minikube*.
 `kubectl config set-context [target-context]`
-<br />
 > kubectl config set-context minikube
 
 Once the target cluster is set, you now can deploy the manifest using the
 folloiwng commands:
 
 > kubectl apply -f helloworld_deploy.yaml
-<br />
+
 > kubectl apply -f helloworld_service.yaml
 
