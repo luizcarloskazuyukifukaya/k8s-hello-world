@@ -89,3 +89,7 @@ folloiwng commands:
 
 > kubectl apply -f helloworld_service.yaml
 
+## 3. Confirm connection
+> curl http://localhost:8080/
+
+
