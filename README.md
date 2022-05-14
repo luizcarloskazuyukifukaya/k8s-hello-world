@@ -18,6 +18,10 @@
 ## 2. Push to container repository (gcr.io)
 > docker push gcr.io/luiz-gcp-repository/helloworld:latest
 
+(NOTE) The Container Resitry Settings should be set with Public access if it is
+to be used for public. If this is the case, you need to change the settings
+, Public access , [Container Registry host] , Visibility to *Public*.
+
 ## 3. Confirm images
 > docker images
 ```
