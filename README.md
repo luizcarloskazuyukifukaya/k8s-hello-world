@@ -51,7 +51,7 @@ spec:
         app: helloworld
     spec:
       containers:
-      - image: gcr.io/helloworld:latest
+      - image: gcr.io/luiz-gcp-repository/helloworld:latest
         name: hellogo
 ```
 `helloworld_service.yaml`
