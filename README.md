@@ -12,7 +12,7 @@
 
 # How to push image to Container Repository
 ## 1. Tag image
-`docker tag [tagname] gcr.io/[tagname]
+`docker tag [tagname] gcr.io/[tagname]`
 > docker tag helloworld:v1.1 gcr.io/helloworld:lastest
 
 ## 2. Push to container repository (gcr.io)
