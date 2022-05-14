@@ -83,6 +83,8 @@ is for Minikube, then it should be *minikube*.
 
 Once the target cluster is set, you now can deploy the manifest using the
 folloiwng commands:
+
 > kubectl apply -f helloworld_deploy.yaml
+
 > kubectl apply -f helloworld_service.yaml
 
