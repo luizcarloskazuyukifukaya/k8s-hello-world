@@ -85,6 +85,6 @@ Once the target cluster is set, you now can deploy the manifest using the
 folloiwng commands:
 
 > kubectl apply -f helloworld_deploy.yaml
-
+<br/>
 > kubectl apply -f helloworld_service.yaml
 
